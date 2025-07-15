@@ -65,7 +65,7 @@ y_pred = rf.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
-# print("\nModel Performance on Test Set:")
+print("\nModel Performance on Test Set:")
 print(f"Mean Squared Error (MSE): {mse:.2f}")
 print(f"R^2 Score: {r2:.2f}")
 
